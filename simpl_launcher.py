@@ -7,7 +7,7 @@ BOT_TOKEN = "8433404482:AAH0I5KOHANLikLd5pqJzBHFgIo3pc-o3O8"
 # ⚠️ ВСТАВЬ СЮДА ТВОЙ GitHub Pages URL ⚠️
 MINI_APP_URL = "https://ТВОЙ-ЛОГИН.github.io/clicker-prestige-fixed"
 
-bot = telebot.TeleBot(@myKVAclicker_bot)
+bot = telebot.TeleBot(8433404482:AAH0I5KOHANLikLd5pqJzBHFgIo3pc-o3O8)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -15,7 +15,7 @@ def send_welcome(message):
     markup = InlineKeyboardMarkup()
     button = InlineKeyboardButton(
         text="🎮 ИГРАТЬ В КЛИКЕР", 
-        web_app=WebAppInfo(url=MINI_APP_URL)
+        web_app=WebAppInfo(url=https://ТВОЙ-ЛОГИН.github.io/clicker-prestige-fixed)
     )
     markup.add(button)
 
@@ -28,3 +28,4 @@ def send_welcome(message):
 print("✅ Бот запущен! Ищи @myKVAclicker_bot в Telegram")
 
 bot.polling()
+

@@ -7,7 +7,7 @@ BOT_TOKEN = "8433404482:AAH0I5KOHANLikLd5pqJzBHFgIo3pc-o3O8"
 # ⚠️ ВСТАВЬ СЮДА ТВОЙ GitHub Pages URL ⚠️
 MINI_APP_URL = "https://ТВОЙ-ЛОГИН.github.io/clicker-prestige-fixed"
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(@myKVAclicker_bot)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -26,4 +26,5 @@ def send_welcome(message):
     )
 
 print("✅ Бот запущен! Ищи @myKVAclicker_bot в Telegram")
+
 bot.polling()

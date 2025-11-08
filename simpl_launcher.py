@@ -5,7 +5,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 BOT_TOKEN = "8433404482:AAH0I5KOHANLikLd5pqJzBHFgIo3pc-o3O8"
 
 # ⚠️ ВСТАВЬ СЮДА ТВОЙ GitHub Pages URL ⚠️
-MINI_APP_URL = "https://ТВОЙ-ЛОГИН.github.io/clicker-prestige-fixed"
+MINI_APP_URL = "https://kwazarrr-glitch.github.io/upd-mini-app-1.6/"
 
 bot = telebot.TeleBot(8433404482:AAH0I5KOHANLikLd5pqJzBHFgIo3pc-o3O8)
 
@@ -15,7 +15,7 @@ def send_welcome(message):
     markup = InlineKeyboardMarkup()
     button = InlineKeyboardButton(
         text="🎮 ИГРАТЬ В КЛИКЕР", 
- web_app=WebAppInfo(url=)
+ web_app=WebAppInfo(url=https://kwazarrr-glitch.github.io/upd-mini-app-1.6/)
     )    )
     markup.add(button)
 
@@ -28,5 +28,6 @@ def send_welcome(message):
 print("✅ Бот запущен! Ищи @myKVAclicker_bot в Telegram")
 
 bot.polling()
+
 
 

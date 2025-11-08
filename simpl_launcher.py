@@ -15,8 +15,8 @@ def send_welcome(message):
     markup = InlineKeyboardMarkup()
     button = InlineKeyboardButton(
         text="🎮 ИГРАТЬ В КЛИКЕР", 
-        web_app=WebAppInfo(url=https://ТВОЙ-ЛОГИН.github.io/clicker-prestige-fixed)
-    )
+ web_app=WebAppInfo(url=)
+    )    )
     markup.add(button)
 
     bot.send_message(
@@ -28,4 +28,5 @@ def send_welcome(message):
 print("✅ Бот запущен! Ищи @myKVAclicker_bot в Telegram")
 
 bot.polling()
+
 
